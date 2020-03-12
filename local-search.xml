@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2020/03/12/hello-world/"/>
+    <url>/2020/03/12/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>GIS应用-数据获取作业</title>
+    <link href="/2020/03/10/GIS%E5%BA%94%E7%94%A8-%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96%E4%BD%9C%E4%B8%9A/"/>
+    <url>/2020/03/10/GIS%E5%BA%94%E7%94%A8-%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96%E4%BD%9C%E4%B8%9A/</url>
+    
+    <content type="html"><![CDATA[<h1 id="第五章-数据获取作业"><a href="#第五章-数据获取作业" class="headerlink" title="第五章 数据获取作业"></a>第五章 数据获取作业</h1><ol><li><p><strong>简述数据获取的定义、目的和基本步骤？</strong></p><p>答：</p></li><li><p><strong>常见的数据源有哪些？</strong></p><p>答：常见的数据源有：</p><ul><li>地图</li><li>地面测量数据</li><li>航空、遥感测量数据</li><li>统计资料</li><li>文字资料</li><li>多媒体资料</li></ul></li><li><p><strong>常见的GIS数据格式有哪些？</strong></p><p>答：常见的GIS数据格式有：</p><ul><li><code>Shapefiel格式</code>：基于文件方式存储GIS数据的文件格式，至少由<code>.shp</code>，<code>.dbf</code>，<code>.shx</code>三个文件组成，分别存储空间、属性，及前两者关系；</li><li><code>Coverage格式</code>：一种拓扑结构，属性缺省存储在Info表中，目前ArcGIS的一些分析操作基于此格式；</li><li><code>Geodatabase格式</code>：一种基于RDBMS存储的数据格式，其中<code>Personal Geadatabase</code>用于存储小数据量数据，<code>ArcSDE Geodatabase</code>存储大型数据；</li><li><code>MapInfo格式</code>：包括<code>.TAB</code>和<code>.MIF</code>两种数据格式，前者是MapInfo唯一的数据存储格式，后者是MapInfo的公开外部数据交换文件；</li><li><code>AutoCAD数据格式</code>：包括<code>.dwg</code>、<code>.dxf</code>数据格式；</li></ul></li><li><p><strong>矢量化的基本步骤有哪些？</strong></p><p> 答：</p></li><li><p><strong>数据共享的模式有哪些？</strong></p></li><li><p><strong>什么是元数据？它的作用有是什么？</strong></p></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
