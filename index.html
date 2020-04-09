@@ -13,7 +13,7 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-  <meta name="theme-color" content="#9DC3C1">
+  <meta name="theme-color" content="#19285d">
   <meta name="description" content="">
   <meta name="author" content="liplushe">
   <meta name="keywords" content="">
@@ -43,7 +43,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -96,6 +96,14 @@
           
           
           <li class="nav-item">
+            <a class="nav-link" href="/We/">We</a>
+          </li>
+        
+          
+          
+          
+          
+          <li class="nav-item">
             <a class="nav-link" href="/about/">关于</a>
           </li>
         
@@ -124,10 +132,6 @@
           </div>
 
           
-            <div class="scroll-down-bar">
-              <i class="fas fa-angle-down scroll-down-arrow"></i>
-            </div>
-          
         </div>
       </div>
     </div>
@@ -137,7 +141,7 @@
     
       <div class="container nopadding-md">
         <div class="py-5 z-depth-3" id="board"
-          style=margin-top:0>
+          >
           
           <div class="container">
             <div class="row">
@@ -149,28 +153,60 @@
     
     
     <div class="col-12 col-md-12 mx-auto index-info">
-      <a href="/2020/03/13/%E7%A5%9E%E8%88%9F%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9D%A1%E7%9C%A0%E5%90%8E%E5%BC%80%E5%90%AF%E6%8F%92%E5%85%A5%E8%80%B3%E6%9C%BA%E6%97%A0%E5%A3%B0%E9%9F%B3/">
-        <p class="h4 index-header">神舟笔记本插入耳机无声音</p>
+      <a href="/2020/03/13/how-to-create-a-blog/">
+        <p class="h4 index-header">如何搭建Hexo静态博客</p>
       </a>
 
-      <a href="/2020/03/13/%E7%A5%9E%E8%88%9F%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9D%A1%E7%9C%A0%E5%90%8E%E5%BC%80%E5%90%AF%E6%8F%92%E5%85%A5%E8%80%B3%E6%9C%BA%E6%97%A0%E5%A3%B0%E9%9F%B3/">
+      <a href="/2020/03/13/how-to-create-a-blog/">
         
         
           
         
         <div class="index-excerpt" >
-          <div class="index-text mb-1">神舟笔记本睡眠后开启插入耳机无声音
+          <div class="index-text mb-1"></div>
+        </div>
+      </a>
+
+      <div class="index-btm">
+        
+          <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-13&nbsp;&nbsp;
+        
+        
+        
+          <i class="iconfont icon-tag"></i>
+          
+            <a href="/tags/hexo-blog-GitHub/">hexo; blog; GitHub</a>&nbsp;
+          
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a href="/2020/03/13/Headphone-ShenzhouLaptop/">
+        <p class="h4 index-header">神舟笔记本插入耳机无声音</p>
+      </a>
+
+      <a href="/2020/03/13/Headphone-ShenzhouLaptop/">
+        
+        
+          
+        
+        <div class="index-excerpt" >
+          <div class="index-text mb-1">神舟笔记本 睡眠后开机插入耳机无声音
 神舟笔记本插入耳机无声音的解决方案  Hotkey  任务计划程序
 
 最近发现神舟笔记本睡眠后再开启，耳机就没声音了，但是系统却能识别到设备。搜索后发现需要安装神舟的Hotkey驱动（如今已更名为控制中心）。
-[TOC]
 1. 初步解决方案在神舟服务官网搜索自己笔记本的型号，根据操作系统类型下载最新的的Hotkey驱动。  
 
 解压后执行Setup.exe程序进行安装  。
 
 安装完后可以发现插入耳机已经有声音了，进入任务管理器，点击启动选项卡，设置HkeyTray开机启动。
 
-2. 中级解决方案安装Hotkey插件确实能解决问题，但是ControlCent</div>
+2. 中级解决方案安装Hotkey插件确实能解决问题，但是ControlCenter在后台</div>
         </div>
       </a>
 
@@ -270,6 +306,8 @@
 
 
 
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
 
 
 
@@ -294,8 +332,8 @@
         '  ',
         "&nbsp;",
       ],
-      cursorChar: "_",
-      typeSpeed: 70,
+      cursorChar: "",
+      typeSpeed: 50,
       loop: false,
     });
     typed.stop();
@@ -312,6 +350,8 @@
     anchors.options = {
       placement: "right",
       visible: "hover",
+      
+      icon: "❡"
       
     };
     var el = "h1,h2,h3,h4,h5,h6".split(",");
@@ -351,6 +391,56 @@
 
 
 
+
+  
+  
+    <script type="text/javascript">
+      //定义获取词语下标
+      var a_idx = 0;
+      jQuery(document).ready(function ($) {
+        //点击body时触发事件
+        $("body").click(function (e) {
+          //需要显示的词语
+          var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
+          //设置词语给span标签
+          var $i = $("<span/>").text(a[a_idx]);
+          //下标等于原来下标+1  余 词语总数
+          a_idx = (a_idx + 1) % a.length;
+          //获取鼠标指针的位置，分别相对于文档的左和右边缘。
+          //获取x和y的指针坐标
+          var x = e.pageX, y = e.pageY;
+          //在鼠标的指针的位置给$i定义的span标签添加css样式
+          $i.css({
+            "z-index": 999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": rand_color()
+          });
+          // 随机颜色
+          function rand_color() {
+            return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+          }
+          //在body添加这个标签
+          $("body").append($i);
+          //animate() 方法执行 CSS 属性集的自定义动画。
+          //该方法通过CSS样式将元素从一个状态改变为另一个状态。CSS属性值是逐渐改变的，这样就可以创建动画效果。
+          //详情请看http://www.w3school.com.cn/jquery/effect_animate.asp
+          $i.animate({
+            //将原来的位置向上移动180
+            "top": y - 180,
+            "opacity": 0
+            //1500动画的速度
+          }, 1500, function () {
+            //时间到了自动删除
+            $i.remove();
+          });
+        });
+      })
+      ;
+    </script>
+  
 
 
 

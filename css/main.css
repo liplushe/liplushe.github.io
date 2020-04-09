@@ -7,13 +7,13 @@ header,
 }
 body {
   background-color: #eee;
-  color: #3c4858;
+  color: #3d6e94;
 }
 body a {
-  color: #3c4858;
+  color: #3d6e94;
 }
 body a:hover {
-  color: #1abc9c;
+  color: #151f61;
 }
 img[srcset] {
   object-fit: cover;
@@ -107,10 +107,10 @@ img[srcset] {
   color: white;
 }
 .top-nav-collapse {
-  background-color: #9DC3C1;
+  background-color: #19285d;
 }
 .navbar-col-show {
-  background-color: #9DC3C1;
+  background-color: #19285d;
 }
 @media (max-width: 767px) {
   .navbar {
@@ -420,7 +420,7 @@ a.police-beian img {
   justify-content: space-between;
 }
 .index-header {
-  font-weight: 700;
+  font-weight: 1400;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -456,7 +456,7 @@ a.police-beian img {
     padding-top: 0.5rem;
   }
   .index-header {
-    font-size: 1.25rem;
+    font-size: 5rem;
     white-space: normal;
     overflow: hidden;
   }
@@ -526,11 +526,11 @@ h6::before {
   font-size: 15px;
 }
 .tocbot-link {
-  color: #3c4858;
+  color: #3d6e94;
 }
 .tocbot-active-link {
   font-weight: 600;
-  color: #1abc9c;
+  color: #151f61;
 }
 .tocbot-is-collapsible {
   max-height: 1000px;
@@ -599,7 +599,7 @@ h6::before {
   font-weight: 400;
 }
 .tagcloud a:hover {
-  color: #1abc9c !important;
+  color: #151f61 !important;
 }
 .links .card {
   box-shadow: none;
